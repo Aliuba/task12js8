@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 1<textarea name="text_name" id="textarea" cols="30" rows="10"></textarea>
+    <button type="button" onclick="setText()">Press me</button> -->
+
+    <!-- 2Дана форма с инпутами, текстареа, чекбоксами, радио кнопочками, селектами  -->
+    <!-- <form id="form">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="input" name="input"><br><br>
+
+        <hr>
+
+        <textarea name="message" id="textarea" rows="10" cols="30"></textarea>
+        <hr>
+
+        <input type="checkbox" id="checkbox1" name="check" value="">
+        <label for="checkbox1"> checkbox1</label><br>
+        <input type="checkbox" id="checkbox2" name="check" value="">
+        <label for="checkbox2"> checkbox2</label><br>
+        <hr>
+
+        <label for="male">Man</label>
+        <input type="radio" name="sex" id="male" value="">
+        <label for="female">Woman</label>
+        <input type="radio" name="sex" id="female" value="">
+        <hr>
+
+        <select id="select">
+            <option >option1</option>
+            <option >option2</option>
+            <option >option3</option>
+            <option >option4</option>
+          </select>
+        <button type="button" onclick="setData()">Click Me!</button>
+    </form> -->
+
+    <!-- 3.// -Дан текстареа. В него можно ввести данные, нажать кнопку "сохранить" и они "фикисруются" (в хранилище),
+  //    затем поредактировать их, затем еще поредактировать и возможно еще.....
+  // Требование : хранить историю своих изменений (даже после перезагрузки страницы).
+  // Сверху над текстареа должны появится стрелочки, с помощью которых можно перемещаться по истории
+  //    (не забудьте!чекпоинт истории - нажатеи кнопки сохранить). -->
+    <!-- <button type="button" id="left">left</button>
+    <button type="button" id="right">right</button>
+    <textarea name="text_name" id="textarea" cols="30" rows="10"></textarea>
+    <button type="button" onclick="setText()">Press me</button>
+
+
+ -->
+
+
+    <!-- 4
+// - Реализуйте записную книгу, хранящую данные в локальном хранилище.
+// Данные которые надо сохранять : ФИО, номер, почта, фирма, отдел, день рождения -->
+
+
+    <form id="form">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="sname">Surname name:</label><br>
+        <input type="text" id="sname" name="sname"><br>
+        <label for="number">Enter your number:</label><br>
+        <input type="number" id="number" name="number"><br>
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="firm">Enter your firm:</label><br>
+        <input type="text" id="firm" name="firm"><br>
+        <label for="department">Enter your department:</label><br>
+        <input type="text" id="department" name="department"><br>
+        <label for="date">Enter your date of birth:</label><br>
+        <input type="date" id="date" name="date"><br>
+        <button type="button" id="button">Click Me!</button>
+    </form>
+    <div id="content"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
